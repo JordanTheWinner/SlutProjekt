@@ -1,0 +1,65 @@
+/*Kod för allt inom Body*/
+body {
+
+    background-color: #423f42;
+    font-family: serif;
+}
+
+
+/*Rubrikernas namn, Destiny 2*/
+h1 {
+    font-family: serif;
+    font-size: 35px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+h2 {
+    font-family:serif;
+    font-size: 25px;
+    color:darkorchid;
+    font-style: italic;
+    text-align: center;
+}
+a:visited { 
+    color: white;
+}
+
+.skrivtext {
+    font-family: serif;
+    font-size: 20px;
+    color: #fff;
+    font-style: italic;  
+}
+
+/*Tar bort prickarna framför länkarna*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    border: 0px solid #555;
+    border: position center;
+}
+
+li {
+     float: left; 
+}
+
+a {
+    padding: 8px;
+    background-color: #808080; /*Bakgrundsfärg rutorna när man */
+}
+
+li a {
+    display: block; /*Placerar länkarna lite bättre*/
+    text-decoration: none; /*Gör så att länkarna inte är understrykna*/
+    padding: 14px 16px; /*Storleken på länkarna*/
+}
+    
+/* Change the link color on hover */
+li a:hover {
+    background-color: black; /*Rutan bakom länken blir x färg*/
+    color: dodgerblue; /*Färg på texten i länken*/
+}
+
